@@ -2,7 +2,7 @@
 #include <stdio.h>
 main()
 {
-  printf("Somewhere, beyond the C, somewhere waiting for me");
-  printf("My lover codes that silica sands, and watches the chips, go sale-ing\n");
+  printf("Somewhere, beyond the C, somewhere, waiting for me");
+  printf("My lover codes that silica sand, and watches the chips, go sale-ing\n");
   return 0;
 }
