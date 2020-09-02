@@ -1,0 +1,8 @@
+/* Prints a message on the screen */
+#include <stdio.h>
+main()
+{
+  printf("Somewhere, beyond the C, somewhere waiting for me");
+  printf("My lover codes that silica sands, and watches the chips, go sale-ing\n");
+  return 0;
+}
