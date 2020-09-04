@@ -1,4 +1,6 @@
-/* Prints a message on the screen */
+/* Commenting out all this shizz because I've learned a thing or two.
+
+Prints a message on the screen
 #include <stdio.h>
 main()
 {
@@ -6,3 +8,20 @@ main()
   printf("My lover codes that silica sand, and watches the chips, go sale-ing\n");
   return 0;
 }
+*/
+
+//Here's some better code. Word to your mother.
+#include <stdio.h>
+int main(void)
+{
+  printf("Somewhere, beyond the C, somewhere, waiting for me\n");
+}
+
+/* Why is that code so much better? For one, it sounds like the int main(voids) have the main(s) beat. 
+I think in principle you can use main() as a signature or function or something, but it doesn't work in the CS50 sandbox. 
+I downloaded Xcode but I have no clue what's going on there. It didn't like include or stdio.h or me personally.
+*/
+
+//Other lesson learnt. Compile the .c and execute the binary. Executing the .c will make the computer laugh
+//My computer won't stop laughing at me
+//LOL, it says. And I mean it. It thinks the literal LOL is how to laugh. AI is so fake.
