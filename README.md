@@ -35,4 +35,32 @@ CHAPTER TWO - The Impassable Gate
 It was a cold, dark knight. We assumed he was dead. Hey does GitHub log your IP address?
 Hey, this chapter is called WRITING YOUR FIRST C PROGRAM. Spoiler alert, I already did yesterday. It was as easy as copying and pasting with my eyes. This chapter also introduces something called the main() function. Last of all, I want you to know that I signed up for CS50 taught by h4Rv4r@ 2niv3r51T3. I'm a programmer now. It occurred to him as he wrote, that he was beginning far too many sentences with 'hey' and in grave danger of becoming the hilarious characature of our dearly departed Cubs announcer, Mr. Harry Caray, as portrayed by William J. Ferrell. HEY! If you were a hotdog programmed in C, would you compile yourself? Oh yeah, now I'm remembering Colin Quinn. The lovable scamp of late night. Now back to CHAPTER TWO. Actually, that's enough for one day. Bye.
 
+CHAPTER TWO - CONTINUED
+It was a day later. Sleep eluded him. He was staring at the phone when C called. Realizing now that you can't spell confusion without C. My book, |Beginner's|, shows initial C code as only requiring the main() function, but CS50 introduces the int main(void) function. After several minutes of perplexed staring, I went to StackOverflow and Carl Norum (very famous) said that main() isn't standard C and the only *real* functions, which Carl call *signatures* are int main(void) and something like int main(arcc ccc+++carccc arg). I don't know why, but I trust Carl and his 25 upvoting acolytes. Point, Harvard. If this book fails me once more, it is going into the bin.
 
+The main() error shows in the CS50 sandbox as well. When I type:
+//Prints Hello, World!
+#include <stdio.h>
+main()
+{
+    printf("Hello, World!");
+}
+
+I get yelled at. 
+
+1 warning generated.
+$ clang hello.c
+hello.c:3:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+
+Here's another thing. Don't be like me (at all, really) and keep calling the c file itself as if it's a compiled executable. Clanging hello.c is great. It generates the binary a.out. But remember that the binary is the thing to execute. Doing ./hello.c will result in an error like:
+
+./hello.c: line 1: //Prints: No such file or directory
+./hello.c: line 4: syntax error near unexpected token `('
+./hello.c: line 4: `int main()'
+
+Doing ./a.out will get you your Hello, World! But it will be ugly and have a $ after it until you throw in a \n before the last quotation mark.
+
+Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Dot slash Siri remind me to dot slash. Ok, I'll remind you to not smash...me when I hear you wrong every single time.
+
+I'm going to move some of these more specific lessons learned into the code itself. "But that's not the purpose of comments!" a nerd cries out. Shut up, nerd. I comment what I want, where I want. Shut the hell up.
